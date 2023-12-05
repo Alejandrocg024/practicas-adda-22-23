@@ -1,0 +1,3 @@
+strict digraph G {
+  1 [ style="bold" label="0" ];
+}

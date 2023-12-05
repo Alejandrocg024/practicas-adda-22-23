@@ -1,0 +1,22 @@
+head section
+
+Integer getNumTipos()
+Integer getNumVariedades()
+Integer getCantidadTipo(Integer j)
+Integer getBeneficioVariedad(Integer i)
+Double getCantidadCafeEnVariedad(Integer j, Integer i)
+
+Integer n = getNumTipos()
+Integer m = getNumVariedades()
+
+goal section
+
+max sum(getBeneficioVariedad(i) x[i], i in 0 .. m) 
+
+constraints section
+
+sum(getCantidadCafeEnVariedad(j, i) x[i], i in 0 .. m) <= getCantidadTipo(j), j in 0 .. n 
+
+int
+
+x[i], i in 0 .. m

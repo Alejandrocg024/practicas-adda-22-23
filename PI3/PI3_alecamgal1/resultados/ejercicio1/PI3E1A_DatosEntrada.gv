@@ -1,0 +1,54 @@
+strict digraph G {
+  1 [ color="black" label="Paco
+Cadiz 1943" ];
+  2 [ color="black" label="Pepa
+Cadiz 1943" ];
+  3 [ color="black" label="Edu
+Jerez 1959" ];
+  4 [ color="black" label="Lola
+Madrid 1963" ];
+  5 [ color="black" label="Juan
+Sevilla 1966" ];
+  6 [ color="black" label="Laura
+Sevilla 1965" ];
+  7 [ color="black" label="Manuel
+Madrid 1982" ];
+  8 [ color="black" label="Carmen
+Jaen 1989" ];
+  9 [ color="black" label="Antonio
+Jaen 1989" ];
+  10 [ color="black" label="Pablo
+Sevilla 1991" ];
+  11 [ color="black" label="Ana
+Cadiz 1985" ];
+  12 [ color="black" label="Patricia
+Cordoba 2010" ];
+  13 [ color="black" label="Maria
+Sevilla 2008" ];
+  14 [ color="black" label="Sara
+Jaen 2015" ];
+  15 [ color="black" label="Marta
+Sevilla 2018" ];
+  16 [ color="black" label="Rafael
+Malaga 2020" ];
+  17 [ color="black" label="Lourdes
+Malaga 1986" ];
+  1 -> 3 [ color="black" ];
+  2 -> 3 [ color="black" ];
+  3 -> 8 [ color="black" ];
+  4 -> 8 [ color="black" ];
+  5 -> 9 [ color="black" ];
+  5 -> 10 [ color="black" ];
+  6 -> 9 [ color="black" ];
+  6 -> 10 [ color="black" ];
+  7 -> 13 [ color="black" ];
+  8 -> 13 [ color="black" ];
+  7 -> 12 [ color="black" ];
+  8 -> 12 [ color="black" ];
+  8 -> 14 [ color="black" ];
+  9 -> 14 [ color="black" ];
+  10 -> 15 [ color="black" ];
+  11 -> 15 [ color="black" ];
+  10 -> 16 [ color="black" ];
+  17 -> 16 [ color="black" ];
+}
